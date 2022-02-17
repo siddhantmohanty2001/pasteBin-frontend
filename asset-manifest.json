@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pasteBin-frontend/static/css/main.c6670eaf.css",
+    "main.js": "/pasteBin-frontend/static/js/main.269cdcad.js",
+    "static/js/787.3242e0cf.chunk.js": "/pasteBin-frontend/static/js/787.3242e0cf.chunk.js",
+    "index.html": "/pasteBin-frontend/index.html",
+    "main.c6670eaf.css.map": "/pasteBin-frontend/static/css/main.c6670eaf.css.map",
+    "main.269cdcad.js.map": "/pasteBin-frontend/static/js/main.269cdcad.js.map",
+    "787.3242e0cf.chunk.js.map": "/pasteBin-frontend/static/js/787.3242e0cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6670eaf.css",
+    "static/js/main.269cdcad.js"
+  ]
+}
