@@ -13,11 +13,9 @@ https://github.com/siddhantmohanty2001/pastebin-server
 #### https://unruffled-ptolemy-6018ac.netlify.app/
 
 ### Frontend Tech Stack
-
-React
+#### React
 
 ### Backend Tech Stack
-
-Mongodb, ExpressJS, NodeJS
+#### Mongodb, ExpressJS, NodeJS
 
 
