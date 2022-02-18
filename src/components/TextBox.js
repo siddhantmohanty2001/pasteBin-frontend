@@ -40,7 +40,7 @@ const TextBox = () => {
             
             <div className="TextArea" placeholder="type your text" value={message} onChange={(e)=>{setMessage(e.target.value)}}>
             {/* <input type="textarea" placeholder="type your text" value={message} onChange={(e)=>{setMessage(e.target.value)}}></input> */}
-            <TextareaAutosize minRows={20} style={{backgroundColor: '#ADD8E6',width:'50rem'}}/>
+            <TextareaAutosize minRows={20} placeholder="type your text" style={{backgroundColor: '#ADD8E6',width:'50rem'}}/>
             </div>
             <Link onClick={e => (!message ) ? e.preventDefault() : null} to={`/display?slug=${slug}`}>
                 

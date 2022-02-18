@@ -9,7 +9,10 @@ import Edit from "./components/Edit";
 function App() {
   return (
     <div className="App">
+      <div className="AppHeader">
+
       <h1>PasteBin</h1>
+      </div>
       <Navbar/>
       <Router>
         <Routes>

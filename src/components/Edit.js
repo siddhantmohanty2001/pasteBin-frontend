@@ -28,12 +28,17 @@ const Edit = () => {
         // setChange(!change);
         }
   return (
-    <div>
+    <div className='Edit'>
+      <div className='EditSub'>
+
         <h2>Enter new expiryDate:</h2>
         <form onSubmit={(e) =>{e.preventDefault()}}>
             <input type="text" value={newExpiry} onChange={(e)=>{setNewExpiry(e.target.value)}}></input>
+            <div className="EditButton">
             <input type="submit" value="submit" onClick={editExpiry}></input>
+            </div>
         </form>
+      </div>
     </div>
   )
 }

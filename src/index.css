@@ -20,11 +20,13 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #9c88ff;
 }
 
 li {
   float: left;
+  background-color: #111;
+  margin-right: 0.1rem ;
 }
 
 li a {
@@ -37,7 +39,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: gray;
 }
 
 .Messages{
@@ -47,12 +49,57 @@ li a:hover {
 }
 
 .Message{
-  background-color: pink;
-  padding:1rem
+  display: flex;
+  justify-content:center;
+}
+.MessageSub{
+  background-color: #9c88ff;
+  width: fit-content;
+  padding:5rem;
+  margin:2rem;
 }
 
 .TextBox{
   display: flex;
   justify-content:space-around;
   padding:1rem;
+}
+
+.EditSub{
+  display: flex;
+  flex-direction:column;
+  width:fit-content;
+  background-color: #9c88ff;
+  padding:1rem;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.Edit{
+  display: flex;
+  justify-content:center;
+  margin: 2rem;
+}
+
+.EditButton>input{
+  background-color:greenyellow;
+  text-align:center;
+}
+
+.MessageSnippet>pre{
+  background-color:#ADD8E6;
+  padding:2rem;
+  width:fit-content
+}
+
+body{
+  background-color:#353b48;
+}
+
+.HomeHeader {
+  color:white;
+}
+
+.AppHeader {
+  color:white;
 }

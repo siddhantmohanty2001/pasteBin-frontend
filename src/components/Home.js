@@ -39,19 +39,22 @@ const res=await fetch('https://pastebin-backend-2.herokuapp.com/delete',{
 }
   return (
     <div>
-        <h2>Available Links</h2>
+      <div className="HomeHeader">
+
+        <h2 >Available Links</h2>
+      </div>
         <div className="Messages">
             {messages.map((item)=>{
                 return(
-            <div className="Message">
+            <div className="MessageSub">
               <div>
             <h2>{item.slug}</h2>
             </div>
             <div>
-           opened
+            <p>Expiry date:{item.expiryDate}</p>
             </div>
             <div>
-           <p>date:{item.date}</p>
+           <p>Creation date:{item.date}</p>
             </div>
             <div>
               <p>link: {item.link}</p>

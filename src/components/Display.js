@@ -41,10 +41,11 @@ const Display = () => {
         }, [value])
   return (
     <div className="Message">
+      <div className="MessageSub">
         <div>
             <h2>slug: {slug}</h2>
         </div>
-        <div>
+        <div className="MessageSnippet">
         <pre>
             <h2>
 
@@ -53,16 +54,18 @@ const Display = () => {
         </pre>
         </div>
         <div>
-            <p>date: {date}</p>
+            <p><b>date of creation:</b> {date}</p>
         </div>
        <div>
-           <p>Link: {link}</p>
+           <p><b>Link:</b> {link}</p>
 
        </div>
        <div>
            <button onClick={() => {copy(window.location);window.alert('Link Copied Successfully')}}>copy link to clipboard</button>
        </div>
     </div>
+    </div>
+    
   )
 }
 
