@@ -21,6 +21,12 @@ const Logs = () => {
         
         setValue(1);
         if(found){
+            //Sorted in descending order of date
+            found.sort((a, b) => {
+                
+                return new Date(b.date) - new Date(a.date);
+            });
+            console.log(found);
           setLogs(found);
         }
     }
