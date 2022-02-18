@@ -4,11 +4,13 @@ import queryString from 'query-string' //to retrieve parameters
 const Logs = () => {
     const [logs,setLogs] =React.useState([{slug:'xyz',ip:'127',date:'zxz'},{slug:'xyz',ip:'127',date:'ZXZ'}])
     const [value,setValue] =React.useState('')
+    const [slug,setSlug]= React.useState('')
     const getData=async ()=>{
         let link=window.location.search;
         console.log(link);
         const path=queryString.parse(link);
          console.log(path.slug);
+         setSlug(path.slug)
         const res=await fetch("https://pastebin-backend-3.herokuapp.com/getLogs");
         console.log(res);
         const data=await res.json();
@@ -27,15 +29,17 @@ const Logs = () => {
     },[value])
   return (
     <div>
-        <h1>Logs</h1>
+        <div className="AppHeader">
+        <h2>Logs of link access with slug={slug}</h2>
+        </div>
         <div className="Messages">
             {logs.map((item)=>{
                 return(
             <div className="MessageSub">
-              <div>
-            <h2>{item.slug}</h2>
-            <h2>{item.ip}</h2>
-            <h2>{item.date}</h2>
+              <div className="LogCard">
+            
+            <p><b>ip:</b>{item.ip}</p>
+            <p><b>date:</b>{item.date}</p>
             </div>
             
             </div>)

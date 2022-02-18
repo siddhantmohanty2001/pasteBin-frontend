@@ -51,25 +51,25 @@ const res=await fetch('https://pastebin-backend-3.herokuapp.com/delete',{
             <h2>{item.slug}</h2>
             </div>
             <div>
-            <p>Expiry date:{item.expiryDate}</p>
+            <p><b>Expiry date:</b>{item.expiryDate}</p>
             </div>
             <div>
-           <p>Creation date:{item.date}</p>
+           <p><b>Creation date:</b>{item.date}</p>
             </div>
             <div>
-              <p>link: {item.link}</p>
+              <p><b>link:</b> {item.link}</p>
             </div>
-            <div>
+            <div className="HomeButtons">
               <button onClick={()=>deleteSnippet(item._id)}>delete</button>
               <Link  to={`/edit?id=${item._id}`}>
                 
-              <button>edit</button>
+              <button style={{color: 'white',backgroundColor:'black',margin:'4px'}}>edit</button>
                 {/* <input type="submit" value="submit" onClick={handleSubmit}></input> */}
                 </Link>
 
                 <Link  to={`/logs?slug=${item.slug}`}>
                 
-              <button>access details</button>
+              <button style={{color: 'white',backgroundColor:'black',margin:'4px'}}>access details</button>
                 {/* <input type="submit" value="submit" onClick={handleSubmit}></input> */}
                 </Link>
             </div>

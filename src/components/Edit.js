@@ -25,6 +25,7 @@ const Edit = () => {
         })
         const data=await res.json();
         console.log(data);
+        window.alert('edit successful')
         // setChange(!change);
         }
   return (
@@ -33,9 +34,9 @@ const Edit = () => {
 
         <h2>Enter new expiryDate:</h2>
         <form onSubmit={(e) =>{e.preventDefault()}}>
-            <input type="text" value={newExpiry} onChange={(e)=>{setNewExpiry(e.target.value)}}></input>
+            <input type="text" value={newExpiry} onChange={(e)=>{setNewExpiry(e.target.value)}} style={{width:'100%'}}></input>
             <div className="EditButton">
-            <input type="submit" value="submit" onClick={editExpiry}></input>
+            <input type="submit" value="submit" onClick={editExpiry} style={{width:'50%',fontSize:"1rem",margin:"1rem",fontWeight:"bold"}}></input>
             </div>
         </form>
       </div>

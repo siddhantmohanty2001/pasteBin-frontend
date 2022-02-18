@@ -55,13 +55,15 @@ li a:hover {
 .MessageSub{
   background-color: #9c88ff;
   width: fit-content;
-  padding:5rem;
+  padding:2rem;
   margin:2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .TextBox{
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
   padding:1rem;
 }
 
@@ -102,4 +104,25 @@ body{
 
 .AppHeader {
   color:white;
+}
+
+.HomeButtons{
+  display: flex;
+  justify-content: center;
+}
+
+.HomeButtons>button {
+  margin: 4px ;
+  color: white;
+  background-color:red
+}
+
+.TextBoxSub{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.LogCard{
+  font-size:1.5rem;
 }
