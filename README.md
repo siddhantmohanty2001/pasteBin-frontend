@@ -31,7 +31,7 @@ https://github.com/siddhantmohanty2001/pastebin-server
 ![Screenshot (200)](https://user-images.githubusercontent.com/65450847/154738072-3466833f-8881-4964-a9b9-2e16c5af28dd.png)
 
 4. Clicking on access button takes you to page where all access details like ip address and dates are displayed for the particular link
-  ![Screenshot (201)](https://user-images.githubusercontent.com/65450847/154738622-916b5024-8d9a-45b5-8631-652c92c47c75.png)
+ ![Screenshot (207)](https://user-images.githubusercontent.com/65450847/154746241-eb6fb976-769f-40ae-8253-d6895cda3a0a.png)
 
 5. New button navigates to a page where you can type new snippet and clicking on submit leads you to display the snippet
 ![Screenshot (202)](https://user-images.githubusercontent.com/65450847/154738970-cc1d1691-40d2-49cd-8d15-a94d74b9318d.png)
