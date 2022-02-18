@@ -40,6 +40,12 @@ https://github.com/siddhantmohanty2001/pastebin-server
 6. Everything gets stored in mongodb
 ![Screenshot (197)](https://user-images.githubusercontent.com/65450847/154577215-ffa61a63-e219-496d-bba0-c80e3bbbf661.png)
 
+## Video Demonstration
+
+https://user-images.githubusercontent.com/65450847/154632899-bfd178c7-74d1-446a-979d-8177b34704e1.mp4
+
+
+
 *****************End*************
 
 
