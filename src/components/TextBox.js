@@ -7,7 +7,7 @@ const TextBox = () => {
     const [message,setMessage] = React.useState('');
     const [slug,setSlug] = React.useState( (Math.random() + 1).toString(36).substring(7));
     const [link,setLink] = React.useState(`https://unruffled-ptolemy-6018ac.netlify.app/display?slug=${slug}`)
-    const [expiryDate,setExpiryDate] = React.useState(new Date())
+    const [expiryDate,setExpiryDate] = React.useState(new Date(Date.now() + ( 3600 * 1000 * 24)))
 //     let d = new Date();
 //   d.setDate(d.getDate()+ 1);
 //   setExpiryDate(d);
