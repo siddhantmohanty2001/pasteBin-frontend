@@ -13,7 +13,7 @@ const Home = () => {
 
     const [messages,setMessages]=React.useState(["xyx","fgf","sgshgd"])
     const getData=async ()=>{
-    const res=await fetch("https://pastebin-backend-2.herokuapp.com/get");
+    const res=await fetch("https://pastebin-backend-3.herokuapp.com/get");
     console.log(res);
     const data=await res.json();
     console.log(data);
@@ -28,7 +28,7 @@ const deleteSnippet= async (id)=>{
     item._id!==id
   ))
   console.log(id);
-const res=await fetch('https://pastebin-backend-2.herokuapp.com/delete',{
+const res=await fetch('https://pastebin-backend-3.herokuapp.com/delete',{
   method: "DELETE",
   headers: { 
     "Content-Type": "application/json",
@@ -64,6 +64,12 @@ const res=await fetch('https://pastebin-backend-2.herokuapp.com/delete',{
               <Link  to={`/edit?id=${item._id}`}>
                 
               <button>edit</button>
+                {/* <input type="submit" value="submit" onClick={handleSubmit}></input> */}
+                </Link>
+
+                <Link  to={`/logs?slug=${item.slug}`}>
+                
+              <button>access details</button>
                 {/* <input type="submit" value="submit" onClick={handleSubmit}></input> */}
                 </Link>
             </div>

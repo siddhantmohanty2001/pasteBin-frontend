@@ -19,8 +19,27 @@ const Display = () => {
         console.log(link);
         const path=queryString.parse(link);
          console.log(path.slug);
-         
-        const res=await fetch("https://pastebin-backend-2.herokuapp.com/get");
+         setSlug(path.slug);
+         //get IP
+         const IP = await axios.get('https://geolocation-db.com/json/')
+    console.log(IP.data);
+    setIP(IP.data.IPv4);
+    console.log(ip);
+
+    //Post logs
+    const resLogs=await fetch("https://pastebin-backend-3.herokuapp.com/postLogs", {
+                method:"POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                body:JSON.stringify({slug:slug,date:new Date(),ip:ip})
+            }
+        )
+        console.log(resLogs);
+
+    //Get Snippets
+        const res=await fetch("https://pastebin-backend-3.herokuapp.com/get");
         console.log(res);
         const data=await res.json();
         console.log(data);

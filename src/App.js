@@ -5,6 +5,7 @@ import {BrowserRouter as Router,Route,Switch,Routes} from "react-router-dom"
 import Home from "./components/Home"
 import Display from "./components/Display"
 import Edit from "./components/Edit";
+import Logs from "./components/Logs";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Route path="/new" element={<TextBox/>}></Route>
     <Route path="/display" element={<Display/>}></Route>
     <Route path="/edit" element={<Edit/>}></Route>
+    <Route path="/logs" element={<Logs/>}></Route>
         </Routes>
     
     </Router>

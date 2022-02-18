@@ -23,7 +23,7 @@ const TextBox = () => {
 //         console.log(r);
 //        setSlug(r);
           console.log(message);
-        const res=await fetch("https://pastebin-backend-2.herokuapp.com/post", {
+        const res=await fetch("https://pastebin-backend-3.herokuapp.com/post", {
                 method:"POST",
                 headers: {
                     "Content-Type": "application/json",

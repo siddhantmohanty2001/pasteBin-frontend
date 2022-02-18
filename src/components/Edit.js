@@ -15,7 +15,7 @@ const Edit = () => {
     
     const editExpiry=async () => {
         /* setTasks(tasks.map((task)=>task._id===id?{...task,remainder:!task.remainder}:task))*/
-        const res=await fetch('https://pastebin-backend-2.herokuapp.com/put',{
+        const res=await fetch('https://pastebin-backend-3.herokuapp.com/put',{
           method: "PUT",
           headers: {
             "Content-Type": "application/json",
