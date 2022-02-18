@@ -20,25 +20,34 @@ https://github.com/siddhantmohanty2001/pastebin-server
 ### Backend Tech Stack
 #### Mongodb, ExpressJS, NodeJS
 
+## Screenshot Demonstration
 1. On the Home page you can see available links
-![Screenshot (191)](https://user-images.githubusercontent.com/65450847/154574806-b68c23ac-3ddc-463c-ade0-b0c9a83c3eac.png)
+![Screenshot (198)](https://user-images.githubusercontent.com/65450847/154737720-42fd2cc2-a8da-478f-8af7-e8201d9b047f.png)
 
 2. Clicking on edit button takes to this edit page where you can type new expiry date and submit
-![Screenshot (192)](https://user-images.githubusercontent.com/65450847/154575515-7d7bea20-2ec3-4971-b36a-b2038da4a537.png)
+![Screenshot (199)](https://user-images.githubusercontent.com/65450847/154737882-0da2d308-d81b-4740-805b-1824ba86cacc.png)
 
 3. Clicking on delete button will delete the snippet and link
-![Screenshot (193)](https://user-images.githubusercontent.com/65450847/154575773-0c6c7112-3274-4c1a-ac3b-afdb5497438b.png)
+![Screenshot (200)](https://user-images.githubusercontent.com/65450847/154738072-3466833f-8881-4964-a9b9-2e16c5af28dd.png)
 
-4. New button navigates to a page where you can type new snippet and clicking on submit leads you to display the snippet
-![Screenshot (194)](https://user-images.githubusercontent.com/65450847/154576143-bce4686f-cb1f-4a13-9c26-7d3cbdb0867d.png)
+4. Clicking on access button takes you to page where all access details like ip address and dates are displayed for the particular link
+  ![Screenshot (201)](https://user-images.githubusercontent.com/65450847/154738622-916b5024-8d9a-45b5-8631-652c92c47c75.png)
 
-5. Click on copy to clipboard and get the unique link
-![Screenshot (195)](https://user-images.githubusercontent.com/65450847/154576378-76668ec1-4e86-4140-a62b-2b8084114230.png)
+5. New button navigates to a page where you can type new snippet and clicking on submit leads you to display the snippet
+![Screenshot (202)](https://user-images.githubusercontent.com/65450847/154738970-cc1d1691-40d2-49cd-8d15-a94d74b9318d.png)
 
-![Screenshot (196)](https://user-images.githubusercontent.com/65450847/154576583-b7d1bb85-1707-4a25-8956-ec47b0c7dbe0.png)
+6. Click on copy to clipboard and get the unique link
+![Screenshot (203)](https://user-images.githubusercontent.com/65450847/154739166-906c3b6f-c269-49a3-94f6-4a9de0226db4.png)
 
-6. Everything gets stored in mongodb
-![Screenshot (197)](https://user-images.githubusercontent.com/65450847/154577215-ffa61a63-e219-496d-bba0-c80e3bbbf661.png)
+![Screenshot (204)](https://user-images.githubusercontent.com/65450847/154739849-f8d36375-33fb-4189-ae93-f29d34f58cbb.png)
+
+6. Snippets and Logs get stored in mongodb
+Snippets
+![Screenshot (205)](https://user-images.githubusercontent.com/65450847/154739934-06e6d80a-896b-4790-8f24-e1be18b81b8b.png)
+
+Logs
+![Screenshot (206)](https://user-images.githubusercontent.com/65450847/154740120-d1a2c4ef-6f9e-4791-a935-1ed0ac40d8fa.png)
+
 
 ## Video Demonstration
 
