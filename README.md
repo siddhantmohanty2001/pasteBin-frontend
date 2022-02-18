@@ -30,13 +30,13 @@ https://github.com/siddhantmohanty2001/pastebin-server
 3. Clicking on delete button will delete the snippet and link
 ![Screenshot (200)](https://user-images.githubusercontent.com/65450847/154738072-3466833f-8881-4964-a9b9-2e16c5af28dd.png)
 
-4. Clicking on access button takes you to page where all access details like ip address and dates are displayed for the particular link
+4. Clicking on access button takes you to page where all access details like ip address and dates are displayed for the particular link in descending order of date
  ![Screenshot (207)](https://user-images.githubusercontent.com/65450847/154746241-eb6fb976-769f-40ae-8253-d6895cda3a0a.png)
 
 5. New button navigates to a page where you can type new snippet and clicking on submit leads you to display the snippet
 ![Screenshot (202)](https://user-images.githubusercontent.com/65450847/154738970-cc1d1691-40d2-49cd-8d15-a94d74b9318d.png)
 
-6. Click on copy to clipboard and get the unique link
+6. Click on copy to clipboard and get the unique link which expires in a day
 ![Screenshot (203)](https://user-images.githubusercontent.com/65450847/154739166-906c3b6f-c269-49a3-94f6-4a9de0226db4.png)
 
 ![Screenshot (204)](https://user-images.githubusercontent.com/65450847/154739849-f8d36375-33fb-4189-ae93-f29d34f58cbb.png)
@@ -51,7 +51,10 @@ Logs
 
 ## Video Demonstration
 
-https://user-images.githubusercontent.com/65450847/154632899-bfd178c7-74d1-446a-979d-8177b34704e1.mp4
+
+https://user-images.githubusercontent.com/65450847/154749070-b2e1f1ab-700e-4e4d-8769-bc6714c3134c.mp4
+
+
 
 
 
