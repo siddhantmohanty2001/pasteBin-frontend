@@ -2,15 +2,17 @@
 
 Add a snippet and get a unique link which can be accessed anywhere.
 
+### Frontend Hosted on  netlify :
+
+#### https://unruffled-ptolemy-6018ac.netlify.app/
+
 ### Backend Hosted on Heroku:
 https://pastebin-backend-2.herokuapp.com/
 
 ### Backend Code: 
 https://github.com/siddhantmohanty2001/pastebin-server
 
-### Frontend Hosted on  netlify :
 
-#### https://unruffled-ptolemy-6018ac.netlify.app/
 
 ### Frontend Tech Stack
 #### React
