@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const TextBox = () => {
     const [message,setMessage] = React.useState('');
     const [slug,setSlug] = React.useState( (Math.random() + 1).toString(36).substring(7));
-    const [link,setLink] = React.useState(`http://localhost:3000/display?slug=${slug}`)
+    const [link,setLink] = React.useState(`https://unruffled-ptolemy-6018ac.netlify.app/display?slug=${slug}`)
     const [expiryDate,setExpiryDate] = React.useState(new Date())
 //     let d = new Date();
 //   d.setDate(d.getDate()+ 1);
