@@ -41,7 +41,15 @@ https://github.com/siddhantmohanty2001/pastebin-server
 
 ![Screenshot (204)](https://user-images.githubusercontent.com/65450847/154739849-f8d36375-33fb-4189-ae93-f29d34f58cbb.png)
 
-6. Snippets and Logs get stored in mongodb
+7. Encrypt message using given api
+![Screenshot (213)](https://user-images.githubusercontent.com/65450847/154796579-299c2fb3-7060-48ad-9a8d-bb80542aa581.png)
+![Screenshot (214)](https://user-images.githubusercontent.com/65450847/154796598-a46b00e2-c79e-4cd3-8d12-a85e60f47bd3.png)
+
+8. Decrypt message using given api
+![Screenshot (215)](https://user-images.githubusercontent.com/65450847/154796621-112470d5-45df-4fcd-a385-99b65e8d8b0d.png)
+![Screenshot (216)](https://user-images.githubusercontent.com/65450847/154796634-51272957-a441-48e7-bcae-cdc49450792b.png)
+
+9. Snippets and Logs get stored in mongodb
 Snippets
 ![Screenshot (205)](https://user-images.githubusercontent.com/65450847/154739934-06e6d80a-896b-4790-8f24-e1be18b81b8b.png)
 
