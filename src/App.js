@@ -6,6 +6,8 @@ import Home from "./components/Home"
 import Display from "./components/Display"
 import Edit from "./components/Edit";
 import Logs from "./components/Logs";
+import Encrypt from "./components/Encrypt";
+import Decrypt from "./components/Decrypt"
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
     <Route path="/display" element={<Display/>}></Route>
     <Route path="/edit" element={<Edit/>}></Route>
     <Route path="/logs" element={<Logs/>}></Route>
+
         </Routes>
     
     </Router>

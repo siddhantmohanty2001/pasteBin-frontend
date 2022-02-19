@@ -3,6 +3,7 @@ import queryString from 'query-string' //to retrieve parameters
 import copy from "clipboard-copy";
 import axios from 'axios'
 import { useSearchParams } from "react-router-dom";
+import Decrypt from './Decrypt';
 const Display = () => {
     const [message,setMessage]=React.useState("Link has expired");
     const [link,setLink]=React.useState('');
@@ -83,6 +84,7 @@ const Display = () => {
            <button onClick={() => {copy(window.location);window.alert('Link Copied Successfully')}}>copy link to clipboard</button>
        </div>
     </div>
+    <Decrypt message={message} setMessage={setMessage}/>
     </div>
     
   )

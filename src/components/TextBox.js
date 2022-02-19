@@ -2,6 +2,7 @@ import React from 'react'
 import TextareaAutosize from 'react-textarea-autosize'
 import * as randomstring from "randomstring";
 import { Link } from 'react-router-dom';
+import Encrypt from './Encrypt'
 
 const TextBox = () => {
     const [message,setMessage] = React.useState('');
@@ -49,7 +50,7 @@ const TextBox = () => {
             {/* <input type="submit" value="submit" onClick={handleSubmit}></input> */}
             </div>
             </form>
-           
+           <Encrypt message={message} setMessage={setMessage}/>
         </div>
     )
 }
